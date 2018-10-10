@@ -1,0 +1,28 @@
+{
+  "name": "xlsx-opcua-demo",
+  "version": "1.0.0",
+  "description": "An OPCUA server that monitors an excel file and exposes its values. Written as a demo for AGORIA OPCUA event on October 11th 2018 at Antwerp.",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/factrylabs/xlsx-opcua-demo.git"
+  },
+  "keywords": [
+    "OPCUA",
+    "xlsx"
+  ],
+  "author": "Jeroen Coussement (www.factry.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/factrylabs/xlsx-opcua-demo/issues"
+  },
+  "homepage": "https://github.com/factrylabs/xlsx-opcua-demo#readme",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "node-opcua": "0.4.5",
+    "node-xlsx": "^0.12.1"
+  }
+}
